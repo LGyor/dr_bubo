@@ -116,5 +116,9 @@ footer a:hover{
 	}
 	footer{
 	  width: 96%;
-	}	
+	}
+	footer p{
+	  margin: .5rem 0 0 0;	
+	}
+	
 }
