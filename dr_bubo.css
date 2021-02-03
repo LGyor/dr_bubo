@@ -31,8 +31,8 @@ header img{
   height: 25%;
   margin: 22px 0 0 22px;
   border-radius: 25px; 
-  opacity: 0.2;
-  transition: opacity 0.6s; 
+  opacity: 0;
+  transition: opacity 1s ease; 
 }
 header:hover img{
   opacity: 1;	
@@ -81,8 +81,12 @@ article h2, article p{
   margin: 20px 30px 0 30px;
   text-align: justify;
 }
+#learn{
+  margin-top: 0.4rem;	
+}
+
 #workplace_h1, #workplace_p{
-  margin-top: 0;	
+  margin-top: 0.4rem;	
 }
 article a{
   text-decoration: none;
@@ -154,9 +158,10 @@ footer p{
 	}
 	header img{
 	  margin: 10px 0 0 10px;
+	  opacity: 0;
     }
 	article{
-	  height: 80vh;	
+	  /*height: 80vh;	*/
 	  width: 100%;
 	  float: none;  
 	  margin: 0 0 30px 0;
@@ -165,7 +170,9 @@ footer p{
 	article h2{
 	  font-size: 1.1rem;	
 	}
-	
+	#learn{
+      font-size: 0.9rem;	
+    }
 	
 	footer{
 	  width: 80%;
